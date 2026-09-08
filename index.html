@@ -177,7 +177,7 @@
         }
 
         function askFullName() {
-            showQuestion("Мыскова Кристина Владимировна, да или нет?", [
+            showQuestion("Подсфирова Алина Дмитриевна, да или нет?", [
                 { text: "Да", action: prankEnd },
                 { text: "Нет", action: () => showQuestion("Смысла скрывать больше нет.", [
                     { text: "Страшно", action: finalHack },
@@ -187,7 +187,7 @@
         }
 
         function askName() {
-            showQuestion("Вас зовут Кристина?", [
+            showQuestion("Вас зовут Алина?", [
                 { text: "Да", action: askFullName },
                 { text: "Нет", action: boringEnd }
             ]);
